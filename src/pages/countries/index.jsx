@@ -57,7 +57,7 @@ const Countries = () => {
               }
             }}>
               <h3>{country.name}</h3>
-              <p>{country.description}</p>
+              <i><p>{country.description}</p></i>
             </div>
           </Link>
         ))}

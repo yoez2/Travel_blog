@@ -19,17 +19,17 @@ const Profile = () => {
       }}>
         <div style={{ marginBottom: '2rem' }}>
           <h3>Personal Information</h3>
-          <p><strong>Name:</strong> dawa yoezer</p>
-          <p><strong>Email:</strong> dawa@gamil.com</p>
-          <p><strong>Member Since:</strong> January 2024</p>
+          <i><p><strong>Name:</strong> dawa yoezer</p></i>
+          <i><p><strong>Email:</strong> dawa@gamil.com</p></i>
+          <i><p><strong>Member Since:</strong> January 2024</p></i>
         </div>
         
         <div>
           <h3>Travel History</h3>
           <ul>
-            <li>bhutan - January 2024</li>
-            <li>Japan- December 2023</li>
-            <li>nepal - October 2023</li>
+            <i><li>bhutan - January 2024</li></i>
+            <i><li>Japan- December 2023</li></i>
+            <i><li>nepal - October 2023</li></i>
           </ul>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Team = () => {
           <div key={index} style={{ padding: '1rem', border: '1px solid #ddd', borderRadius: '8px' }}>
             <h4>{member.name}</h4>
             <p style={{ color: '#666' }}>{member.role}</p>
-            <p>{member.bio}</p>
+            <i><p>{member.bio}</p></i>
           </div>
         ))}
       </div>

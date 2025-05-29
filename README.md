@@ -55,4 +55,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 Your Name - [@Dawa yoezer dorji](https://www.linkedin.com/in/dawa-yoezer-205788322/)
-Project Link: [https://github.com/yoez2/travel-blog](https://github.com/yoez/travel-blog)

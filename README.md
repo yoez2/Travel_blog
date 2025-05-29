@@ -38,14 +38,30 @@ The application will be available at `http://localhost:3000`
 ## Project Structure
 
 ```
-travel-blog/
-├── public/          # Static files
-├── src/            # Source files
-│   ├── components/ # React components
-│   ├── pages/      # Page components
-│   ├── styles/     # CSS files
-│   └── utils/      # Utility functions
-├── server/         # Backend server code
+src/
+├── components/
+│   └── Navbar.jsx
+├── context/
+│   └── AuthContext.jsx
+├── pages/
+│   ├── index.jsx
+│   ├── about/
+│   │   ├── components/
+│   │   │   └── Team.jsx
+│   │   └── index.jsx
+│   ├── countries/
+│   │   ├── index.jsx
+│   │   ├── [id].jsx
+│   ├── auth/
+│   │   └── Login.jsx
+│   ├── profile/
+│   │   └── index.jsx
+│   └── NotFound.jsx
+├── routes/
+│   └── AppRoutes.jsx
+├── App.jsx
+└── main.jsx
+
 └── package.json    # Project dependencies
 ```
 ## License
